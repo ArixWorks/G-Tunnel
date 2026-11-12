@@ -8,6 +8,20 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](#)
 [![Auto](https://img.shields.io/badge/Setup-Fully%20Automated-brightgreen?style=flat-square&logo=githubactions&logoColor=white)](#)
 
+## 🌍 English
+
+**G-Tunnel** turns a free GitHub Codespace into a fully automated VLESS/WebSocket proxy powered by Xray-core.
+
+- **Zero config:** fork the repo, create a Codespace, and ready-to-import VLESS links appear in your terminal in about 3 minutes.
+- **Fresh UUID on every run** with WebSocket transport, built for unstable or censored networks.
+- **Low latency:** 190–400 ms via 7 direct IPs plus a GitHub domain fallback.
+- **Free:** runs inside your normal Codespaces quota (60 h/month, 90 h for students).
+- Works with v2rayNG, Nekobox, v2rayN, Nekoray, V2Box, Streisand, FoXray.
+
+> 📖 The full setup guide is in the Persian section below.
+
+---
+
 به **G-Tunnel** خوش آمدید؛ نسل جدید و بهینه‌سازی شده پروکسی‌های مبتنی بر GitHub Codespaces. این پروژه با هدف ارائه اتصالی پایدار، سریع و کاملاً خودکار، بر پایه هسته قدرتمند Xray و پروتکل WebSocket بازطراحی شده است.
 
 ---
