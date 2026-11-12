@@ -5,7 +5,7 @@
 [![Platform](https://img.shields.io/badge/Platform-GitHub%20Codespaces-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/features/codespaces)
 [![Protocol](https://img.shields.io/badge/Protocol-VLESS%20%2B%20WS%20%2B%20TLS-00d9ff?style=flat-square&logo=v2ray&logoColor=white)](#)
 [![Core](https://img.shields.io/badge/Core-Xray--core-7a00ff?style=flat-square&logo=xray&logoColor=white)](https://github.com/XTLS/Xray-core)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](#)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)]](LICENSE)
 [![Auto](https://img.shields.io/badge/Setup-Fully%20Automated-brightgreen?style=flat-square&logo=githubactions&logoColor=white)](#)
 
 ## 🌍 English
