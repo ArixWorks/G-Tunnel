@@ -20,6 +20,22 @@
 
 > 📖 The full setup guide is in the Persian section below.
 
+## 🎯 The problem
+
+Self-hosting is the practical fallback for users on networks where commercial VPN endpoints are throttled, reset or blocked. The setup is where most of them stop: Xray configuration, transport selection, TLS, per-user credentials, client-side import. Every hand-made variant is a new failure mode, and a static tutorial rots quickly because endpoint quality drifts per operator and per hour.
+
+## 🔧 What it automates
+
+- **Ephemeral, reproducible runtime** — the whole stack lives in a `.devcontainer`, so every run is identical and nothing persists on the host.
+- **Zero-touch configuration** — VLESS over WebSocket/TLS generated at runtime, with the UUID rotated on every run.
+- **Endpoint selection** — 7 direct addresses plus a domain fallback, emitted as ready-to-import links instead of a config file to edit.
+- **Client coverage** — v2rayNG, Nekobox, v2rayN, Nekoray, V2Box, Streisand, FoXray.
+- **MIT licensed**, no account or payment beyond the Codespace itself.
+
+## 📊 Measurement and next steps
+
+Adoption (38 stars, 141 forks) exposes the real support load: failures cluster by operator and by hour, and no single static configuration covers them. The next layer is a feedback loop — capture per-run transport behaviour, triage failures automatically, and adapt transport parameters per client — run as an experiment over live configuration variants rather than a periodic release. That is the part where agent-assisted development stops being optional: generating variant harnesses, refactoring protocol adapters, and auditing the measurement pipeline while hypotheses change daily.
+
 ---
 
 به **G-Tunnel** خوش آمدید؛ نسل جدید و بهینه‌سازی شده پروکسی‌های مبتنی بر GitHub Codespaces. این پروژه با هدف ارائه اتصالی پایدار، سریع و کاملاً خودکار، بر پایه هسته قدرتمند Xray و پروتکل WebSocket بازطراحی شده است.
